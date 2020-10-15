@@ -84,7 +84,7 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
+  background-color: #800000; /*rgba(34, 49, 52, 0.9);*/
   position :fixed;
   top: 0;
   z-index: 10;
@@ -119,7 +119,7 @@ header {
 
 /* Tambahkan CSS untuk menu-icon */
 .menu-icon {
-  color: gold;
+  color: white;
   float: right;
   font-size: 25px;
   padding: 21px 0;
@@ -202,6 +202,7 @@ footer p {
 }
 
 footer {
+  background-color: #800000;
   padding-top: 30px;
   padding-bottom: 20px;
 }
